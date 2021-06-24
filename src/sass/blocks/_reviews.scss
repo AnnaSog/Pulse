@@ -1,0 +1,37 @@
+.reviews {
+    min-height: 920px;
+    padding-bottom: 71px;
+    &__people {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 100px;
+        &:nth-child(2){
+          margin-top: 70px;
+        }
+
+    }
+    &__content{
+        max-width: 676px;
+        min-height: 228px;
+        margin-left: 60px;
+    }
+    &__name{
+        font-size: 18px;
+        font-weight: 700;
+        color: #0d0d0d;
+    }
+    &__descr{
+        margin-top: 11px;
+        font-size: 14px;
+        font-weight: 300;
+        color: #646464;
+    }
+    &__text{
+        margin-top: 19px;
+        font-size: 16px;
+        line-height: 25px;
+        font-weight: 300;
+        color: #0d0d0d;
+    }
+}
