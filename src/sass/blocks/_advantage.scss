@@ -33,6 +33,19 @@
             color: #ff0000;
         }
     }
+    &__icon {
+        &_animated {
+            animation: hearbeat 2s ease infinite;
+            // animation-name: hearbeat;
+            // animation-duration: 2s;
+            // animation-timing-function: ease;
+            // animation-iteration-count: infinite;
+            &:hover {
+                animation-play-state: paused;
+            }
+        }
+    }
+    
    
 
 }

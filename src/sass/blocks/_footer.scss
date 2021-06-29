@@ -1,6 +1,11 @@
 .footer {
     height: 630px;
     position: relative;
+    iframe {
+        width: 100%;
+        height: 630px;
+        border: 0;
+    }
     &__info {
         position: absolute;
         top: 0;
@@ -39,7 +44,7 @@
         align-items: center;
     }
     &__social-item {
-        // position: relative;
+        position: relative;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -49,9 +54,9 @@
         border-radius: 100%;
         margin: 0 15px;
         margin-top: 38px;
-        // &:hover {
-        //     bottom: 5px;
-        // }
+        &:hover {
+            bottom: 10px;
+        }
         img {
             height: 27px;
 

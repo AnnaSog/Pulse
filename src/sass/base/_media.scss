@@ -132,6 +132,9 @@
             font-size: 12px;
         }
         
+        .button {
+            margin-top: 15px;
+        }
         .button_main {
             width: 241px;
             font-size: 13px;
@@ -220,6 +223,43 @@
             margin-top: 30px;
         }
         
+    }
+
+    .modal {
+        padding: 20px 20px 20px 20px;
+        width: 270px;
+        min-height: 389px;
+        &__close {
+            top: -43px;
+            right: 6px;
+        }
+        &__subtitle {
+            font-size: 16px;
+        }
+        &__descr {
+            font-size: 13px;
+        }
+        font-size: 16px;
+        .feed-form {
+            width: 209px;
+            margin: 0 auto;
+            margin-top: 25px;
+            input {
+                height: 41px;
+                font-size: 12px;
+            }
+            .button_submit {
+                height: 44px;
+                font-size: 14px;
+            }
+        }
+
+        label.error {
+            border: none;
+            margin-top: -7px;
+            margin-bottom: 1px;
+            font-size: 12px;
+        }    
     }
     
 }
